@@ -450,20 +450,6 @@ document.body.appendChild(new XFavButton());
                         <li class="fragment">Behaviors</li>
                     </ul>
                 </section>
-                <section hidden>
-                    <h3>Binding system</h3>
-                            <pre><code data-trim>
-<template>
-<child-element name="{{myName}}"></child-element><!-- Two ways -->
-<child-element name="[[myName]]"></child-element><!-- one way -->
-First: {{firstName}}<br><!-- binding to text content -->
-<!-- Compound binding-->
-<img src$="https://www.example.com/profiles/{{userId}}.jpg">
-<!-- Binding to sub properties -->
-<user-view first="{{user.first}}" last="{{user.last}}"></user-view>
-</template>
-                            </code></pre>
-                </section>
             </section>
             <section>
                 <h1>Links:</h1>
